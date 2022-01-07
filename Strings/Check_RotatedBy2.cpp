@@ -3,11 +3,11 @@ class Solution
     public:
     //Function to check if a string can be obtained by rotating
     //another string by exactly 2 places.
-    bool check(string st1,string st2)
+     bool check(string st1,string st2)
     {
         st2+=st2;
         int a=st2.find(st1);
-       int b=
+        return (a==2);
     }
     bool isRotated(string str1, string str2)
     {
